@@ -1,4 +1,4 @@
-[obj_714]
+[radimus_notes]
 name=Radimus notes
 desc=Notes given to you by Radimus Erkle, it includes a partially completed map.
 members=yes
@@ -17,7 +17,7 @@ iop2=Complete
 weight=20g
 tradeable=no
 
-[obj_715]
+[radimus_notes_complete]
 name=Radimus notes
 desc=Notes given to you by Radimus Erkle, it includes a partially completed map.
 members=yes
@@ -125,7 +125,7 @@ iop1=Read
 weight=20g
 tradeable=no
 
-[obj_720]
+[sketch]
 name=Sketch
 desc=A rough sketch of a bowl shaped vessel given to you by Gujuo.
 cost=10
@@ -531,7 +531,7 @@ param=stab_sound,stabsword_stab
 param=slash_sound,stabsword_slash
 tradeable=no
 
-[obj_747]
+[glowing_dagger]
 model=model_2733_obj
 2dxof=1
 2dzoom=1000
@@ -558,7 +558,7 @@ param=stab_sound,stabsword_stab
 param=slash_sound,stabsword_slash
 tradeable=no
 
-[obj_748]
+[holy_force]
 name=Holy force
 desc=A powerful spell for good.
 model=model_2583_obj
@@ -571,7 +571,7 @@ iop1=Cast Spell
 weight=20g
 tradeable=no
 
-[obj_749]
+[yommi_totem]
 name=Yommi totem
 desc=A well carved totem pole made from the trunk of a Yommi tree.
 members=yes
@@ -584,7 +584,7 @@ model=model_loc_870_8
 weight=3kg
 tradeable=no
 
-[obj_750]
+[gilded_totem]
 name=Gilded totem
 desc=A gilded totem pole from the Kharazi tribe.
 model=model_loc_870_8
