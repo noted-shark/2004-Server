@@ -47,7 +47,7 @@ iop1=Swing
 weight=20g
 tradeable=no
 
-[obj_717]
+[scrawled_note]
 name=Scrawled note
 desc=A scrawled note with spidery writing on it.
 members=yes
@@ -73,7 +73,7 @@ iop1=Read
 weight=20g
 tradeable=no
 
-[obj_718]
+[a_scribbled_note]
 name=A scribbled note
 desc=A scrawled note with spidery writing on it.
 members=yes
@@ -99,7 +99,7 @@ iop1=Read
 weight=20g
 tradeable=no
 
-[obj_719]
+[scrumpled_note]
 name=Scrumpled note
 desc=A scrawled note with spidery writing on it.
 members=yes
@@ -144,7 +144,7 @@ iop1=Look
 weight=20g
 tradeable=no
 
-[obj_721]
+[gold_bowl]
 name=Gold bowl
 desc=A specially made bowl constructed out of pure gold.
 cost=700
@@ -159,8 +159,9 @@ recol2d=31528
 2dxan=204
 weight=800g
 tradeable=no
+param=changesto,golden_bowl_water
 
-[obj_722]
+[blessed_gold_bowl]
 name=Blessed gold bowl
 desc=A specially made bowl constructed out of pure gold and blessed.
 cost=700
@@ -175,8 +176,9 @@ recol2d=31528
 2dxan=204
 weight=800g
 tradeable=no
+param=changesto,blessed_golden_bowl_water
 
-[obj_723]
+[golden_bowl_water]
 name=Golden bowl
 desc=A specially made golden bowl with water.
 cost=700
@@ -190,8 +192,9 @@ recol1d=31528
 iop1=Empty
 weight=1kg
 tradeable=no
+param=next_obj_stage,gold_bowl
 
-[obj_724]
+[golden_bowl_pure_water]
 name=Golden bowl
 desc=A specially made bowl constructed out of pure gold. It has pure water in it.
 cost=700
@@ -205,8 +208,9 @@ recol1d=31528
 iop1=Empty
 weight=1kg
 tradeable=no
+param=next_obj_stage,gold_bowl
 
-[obj_725]
+[blessed_golden_bowl_water]
 name=Golden bowl
 desc=A blessed golden bowl. It has water in it.
 cost=700
@@ -220,8 +224,9 @@ recol1d=31528
 iop1=Empty
 weight=1kg
 tradeable=no
+param=next_obj_stage,blessed_gold_bowl
 
-[obj_726]
+[blessed_golden_bowl_pure_water]
 name=Golden bowl
 desc=A blessed golden bowl. It has pure sacred water in it.
 cost=700
@@ -235,8 +240,9 @@ recol1d=31528
 iop1=Empty
 weight=1kg
 tradeable=no
+param=next_obj_stage,blessed_gold_bowl
 
-[obj_727]
+[hollow_reed]
 cost=2
 name=Hollow reed
 desc=One of nature's pipes.
@@ -251,7 +257,7 @@ womanwear=model_515_obj_wear,0
 2dxan=212
 weight=12g
 
-[obj_729]
+[shamans_tome]
 name=Shamans tome
 desc=It looks like the Shamans personal notes...
 model=model_2633_obj
@@ -267,7 +273,7 @@ iop1=Read
 weight=18oz
 tradeable=no
 
-[obj_730]
+[book_of_binding]
 name=Book of binding
 desc=An ancient tome on Demonology.
 model=model_2509_obj
@@ -290,7 +296,7 @@ iop1=Read
 weight=18oz
 tradeable=no
 
-[obj_731]
+[enchanted_vial]
 name=Enchanted vial
 desc=An enchanted empty glass vial.
 model=model_1736_obj
@@ -333,7 +339,7 @@ param=proj_travel,holy_water_travel
 param=rangeattack_sound,thrown
 tradeable=no
 
-[obj_733]
+[smashed_glass]
 name=Smashed glass
 desc=Fragments of a broken container.
 cost=1
@@ -346,7 +352,7 @@ model=model_2676_obj
 2dxan=412
 weight=2g
 
-[obj_735]
+[yommi_tree_seeds]
 name=Yommi tree seeds
 desc=These need to be germinated before they can be used.
 model=model_2381_obj
@@ -363,7 +369,7 @@ op1=Look
 weight=1g
 tradeable=no
 
-[obj_736]
+[yommi_tree_seeds_germinated]
 name=Yommi tree seeds
 desc=These are germinated and ready to be planted in fertile soil.
 model=model_2381_obj
@@ -380,7 +386,7 @@ op1=Look
 weight=1g
 tradeable=no
 
-[obj_737]
+[snakeweed_mixture]
 name=Snakeweed mixture
 desc=It's a mixture of Snakeweed and water, I need another ingredient to finish this potion.
 model=model_2789_obj
@@ -394,7 +400,7 @@ weight=25g
 members=yes
 tradeable=no
 
-[obj_738]
+[ardrigal_mixture]
 name=Ardrigal mixture
 desc=It's a mixture of Ardrigal and water, I need another ingredient to finish this potion.
 model=model_2789_obj
@@ -408,7 +414,7 @@ members=yes
 weight=25g
 tradeable=no
 
-[obj_739]
+[bravery_potion]
 name=Bravery potion
 desc=A bravery potion which Gujuo gave you the details for, let's hope it works.
 model=model_2789_obj
@@ -423,7 +429,7 @@ iop1=Drink
 weight=25g
 tradeable=no
 
-[obj_740]
+[blue_hat]
 name=Blue hat
 desc=A strange blue wizards hat.
 cost=2
@@ -445,7 +451,7 @@ param=magicattack,3
 param=magicdefence,3
 tradeable=no
 
-[obj_741]
+[chunk_of_crystal]
 name=Chunk of crystal
 desc=It looks like it's been snapped off of something.
 model=model_2842_obj
@@ -456,7 +462,7 @@ members=yes
 weight=50g
 tradeable=no
 
-[obj_742]
+[hunk_of_crystal]
 name=Hunk of crystal
 desc=It looks like it's been snapped off of something.
 model=model_2843_obj
@@ -467,7 +473,7 @@ members=yes
 weight=50g
 tradeable=no
 
-[obj_743]
+[lump_of_crystal]
 name=Lump of crystal
 desc=It looks like it's been snapped off of something.
 model=model_2844_obj
@@ -479,7 +485,7 @@ members=yes
 weight=50g
 tradeable=no
 
-[obj_744]
+[heart_crystal_1]
 name=Heart crystal
 desc=A heart shaped crystal.
 model=model_2472_obj
@@ -491,7 +497,7 @@ weight=150g
 iop1=Look-at
 tradeable=no
 
-[obj_745]
+[heart_crystal_2]
 name=Heart crystal
 desc=A heart shaped crystal.
 model=model_2827_obj
@@ -503,7 +509,7 @@ weight=150g
 iop1=Look-at
 tradeable=no
 
-[obj_746]
+[legends_black_dagger]
 model=model_2614_obj
 members=yes
 2dxof=1
